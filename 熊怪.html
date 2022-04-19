@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .face {
+            width: 500px;
+            height: 500px;
+            border-radius: 50%;
+            background: black;
+            position: absolute;
+            margin: 10% 35%
+        }
+        .ear1 {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 15px solid black;
+            background: white;
+            position: absolute;
+            margin: 1% 10%;
+        }
+        .ear2 {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 15px solid black;
+            background: white;
+            position: absolute;
+            margin: 1% 70%;
+        }
+        .cheek1 {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            background: red;
+            position: absolute;
+            margin: 40% -5%;
+        }
+        .cheek2 {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            background: red;
+            position: absolute;
+            margin: 40% 80%;
+        }
+        .eye1 {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            border: 15px solid white;
+            background: black;
+            position: absolute;
+            margin: 20% 20%;
+        }
+        .eye2 {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            border: 15px solid white;
+            background: black;
+            position: absolute;
+            margin: 20% 60%;
+        }
+        .mouth {
+            width: 240px;
+            height: 160px;
+            border-radius: 50%;
+            border: 1px solid black;
+            background: white;
+            margin: 40% 26%;
+            position: absolute;
+        }
+        .mouth::before {
+            content: " ";
+            width: 50px;
+            height: 40px;
+            border-radius: 50%;
+            background: black;
+            position: absolute;
+            margin: 10px 95px;
+        }
+        .mouth::after {
+            content: " ";
+            width: 160px;
+            height: 60px;
+            background: black;
+            border-radius: 50%;
+            position: absolute;
+            margin: 70px 40px;
+        }
+        .v {
+            width: 70px;
+            height: 60px;
+            background: white;
+            transform: skew(50deg);
+            position: absolute;
+            margin: 80% 35%;
+        }
+        .v::before {
+            content: " ";
+            width: 70px;
+            height: 60px;
+            background:white;
+            position: absolute;
+            transform: skew(113deg);
+            margin: auto 130%;
+            
+        }
+        
+    </style>
+
+</head>
+<body>
+    <div class="face">
+        <div class="ear1"></div>
+        <div class="ear2"></div> 
+        <div class="cheek1"></div>
+        <div class="cheek2"></div>
+        <div class="eye1"></div>
+        <div class="eye2"></div>
+        <div class="mouth"></div>
+        <div class="v"></div>
+    </div>
+</body>
+</html>
